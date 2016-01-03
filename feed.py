@@ -1,0 +1,5 @@
+import facebook
+
+graph = facebook.GraphAPI('CAACEdEose0cBAMogj4nmAFhAAaTE0KXm14B90eG3w1rs9WZAdp5H8LjqBOrMGaDYJNGY3i4VRcsRe5XyOOj3wWBR0ZA1RsjVgcORtAMzegwhixWPk75ZC58lCO8oqudeBKLmBTVMhXkkrn1aP7ZACLaZBlRzZBoQric8ObV5UaDfwYosvqZAKRsN2JaIqroXMOvzQ9QOqQHi5HtBCk3BtTimxgqzg7exgoZD')
+profile = graph.get_object("me")
+print profile
